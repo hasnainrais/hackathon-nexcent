@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cs-navbar{
+    background-color: #FFFFFF;
+    box-shadow: 0 2px  5px #ABBED166;
+    align-content: center;
+}
+
+.cs-nav{
+    margin-right:50px;
+    gap: 20px;
+}
+
+.cs-nav>li{
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+.cs-nav-btn{
+    width: 133px;
+    height: 36px;
+    border-radius: 3px;
+    font-size: 12px !important;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+    text-align: center;
+}
+
+/* Hero Section */
+
+.cs-hero{
+    /* height: 450px; */
+    background-color: #F5F7FA;
+    margin-top: 30px !important;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.cs-hero-text{
+    /* width: 60%; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+ 
+    
+
+}
+.cs-hero-text>h1{
+    font-size:48px;
+    font-weight: 600;
+    color: #4D4D4D;
+
+}
+.cs-hero-span{
+    color: #4CAF4F !important;
+}
+.cs-hero-text>p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #717171;
+}
+
+.cs-hero-btn{
+    width: 90px;
+    height: 36px;
+    color: #FFFFFF !important;
+    font-weight: 500;
+    font-size: 12px !important;
+    background-color: #4CAF4F !important;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cs-hero-img{
+    /* width: 40%; */
+    margin-top: 60px;
+    text-align: center;
+    /* margin-right: 40px; */
+    /* border: 2px solid red; */
+}
+
+.cs-dot{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+
+/* section client */
+
+
+.cs-sec1-text{
+    margin-top: 30px;
+    text-align: center;
+}
+.cs-sec1-text>h1{
+    font-size: 24px;
+    color: #4D4D4D;
+    font: 600;
+}
+
+.cs-sec1-text>p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #717171;
+}
+
+.cs-icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.cs-icon>a:hover{
+    opacity: 0.5;
+}
+
+.sec3-text{
+    text-align: center;
+    margin-top: 50px;
+}
+.sec3-text>h1{
+    font-size: 24px;
+    font-weight: 600;
+    color:#4D4D4D;
+
+}
+
+.sec3-text>p{
+    font-size: 12px;
+    font-weight: 400;
+    color:#717171;
+
+}
+/* Section4 */
+
+.cs-sec4{
+    margin-top: 30px;
+    /* display: flex;
+    justify-content: space-between;    /* display: flex; */
+    justify-content: center; */
+}
+.cs-sec4-card{
+    width: 208px;
+    height: 190px;
+    border: 1px solid red;
+    padding: 20px;
+    
+}
+
+.cs-sec4-card>img{
+    margin-left: 60px;
+    
+}
+.cs-sec4-card>h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #4D4D4D;
+    text-align: center;
+
+}
+.cs-sec4-card>p{
+    font-size: 10px;
+    font-weight: 400;
+    color: #4D4D4D;
+    text-align: center;
+
+}
